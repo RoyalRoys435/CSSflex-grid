@@ -3,7 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+@media all (min-width: 480px) and (max-width: 1280px) and (orientation: landscape) {
+  body {
+    width: 100%;
+    margin: 50px;
+  }
 }
 body {
   background-color: aliceblue;
