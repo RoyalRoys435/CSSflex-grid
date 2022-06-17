@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@media and (min-width: 480px) and (max-width: 1280px) and (orientation: landscape) {
+  body {
+    width: 100%;
+    margin: auto;
+  }
+  button {
+    background-color: white;
+    border: 2px;
+    border-radius: 25px;
+    bottom: 30%;
+    position: fixed;
+    padding-left: 0%;
+    font-size: large;
+    padding: 5px;
+    height: 50px;
+    width: 150px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
+  }
+}
+body {
+  background-color: aliceblue;
+  justify-content: center;
+  padding-left: 400px;
+  padding-top: 60px;
+}
+main {
+  width: 60%;
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  height: 60vh;
+}
+.heading1 {
+  background-color: rgb(189, 127, 11);
+  padding: 20px;
+  color: white;
+  font-family: Yamaxanadu;
+}
+.heading2 {
+  background-color: rgb(6, 120, 126);
+  color: white;
+  padding: 20px;
+}
+.heading3 {
+  background-color: rgb(2, 45, 59);
+  color: white;
+  padding: 20px;
+}
+.paragraph3 {
+  padding-top: 50px;
+}
+.paragraph2 {
+  padding-top: 50px;
+}
+.paragraph1 {
+  padding-top: 50px;
+}
+img {
+  border-radius: 50%;
+  max-width: 40%;
+}
+button {
+  background-color: white;
+  border: 2px;
+  border-radius: 25px;
+  bottom: 30%;
+  position: fixed;
+  padding-left: 0%;
+  font-size: large;
+  padding: 5px;
+  height: 50px;
+  width: 150px;
+  font-family: Lato;
+
+  box-sizing: border-box;
+  text-align: center;
+  justify-content: center;
+}
+
+.h1 {
+  font-weight: bold;
+  padding-top: 50px;
+}
+.h2 {
+  font-weight: bold;
+  padding-top: 50px;
+}
+.h3 {
+  font-weight: bold;
+  padding-top: 50px;
+}
+button:hover {
+  opacity: 50%;
+  color: white;
+  background-color: transparent;
+  border: 2px solid;
+}
+.btn1 {
+  color: rgb(6, 120, 126);
+}
+.btn2 {
+  color: rgb(2, 45, 59);
+}
+.btn3 {
+  color: rgb(189, 127, 11);
+}
