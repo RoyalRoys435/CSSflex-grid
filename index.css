@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-@media and (min-width: 480px) and (max-width: 1280px) and (orientation: landscape) {
+@media all (min-width: 480px) and (max-width: 1280px) and (orientation: landscape)  and (orientation: horintal){
   body {
     width: 100%;
     margin: auto;
